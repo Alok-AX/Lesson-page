@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
+}
+.side_nav{
+width: 100px;
+background-color: #fff;
+text-align: center;
+
+box-shadow: 2px 4px 8px rgb(0 0 0 / 122%);
+justify-content: center;
+opacity: 11111;
+z-index: 10000; 
+
+
+
+}
+.side_nav .home .padding{
+width: 100px;
+display: block;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: auto;
+
+}
+.padding{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.padding  h1{
+width: 100px;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+
+}
+.padding ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.padding ul li a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgb(51, 48, 48);
+
+}
+.padding ul li a h1{
+    font-size: 13px;
+    color: rgb(51, 48, 48);
+}
+
+
+
+
+
+.padding:hover{
+    background: rgb(72, 202, 241);
+    border-left: 1px solid rgb(5, 67, 75);
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    transition: ease 0.5s;
+    color: rgb(14, 13, 13);
+    border-top: 2px solid rgb(252, 242, 242);
+}
+.active{
+    background: rgb(72, 202, 241);
+    border-left: 1px solid rgb(5, 67, 75);
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+
+.right_page{
+    margin-top: 80px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(228, 222, 222);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 98px rgb(0 0 0 / 22%);
+    }
+    .right_page .h3 h3{
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         font-size: 14px;
+         font-weight: 600;
+         text-transform: lowercase;
+    }
+.heading a{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 26px;
+    text-decoration: none;
+}
+.heading a img{
+    height: 14px;
+justify-content: center;
+align-self: flex-start;
+align-items: center;
+text-align: center;
+
+
+}
+.heading a h1{
+        justify-content: center;
+align-self: flex-start;
+align-items: center;
+text-align: center;
+font-size: 14px;
+font-weight: 800;
+color: rgb(46, 45, 45);
+}
+
+.input_url{
+    margin: 30px;
+
+}
+.input_url input{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-left: 141px;
+    margin-top: 34px;;
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    text-align: start;
+    padding: 20px;
+    margin-right: 40px;
+    overflow: hidden;
+}
+::placeholder {
+    color: rgb(134, 131, 131);
+    opacity: 1;
+    font-weight: bold; 
+  }
+  
+ 
+  
+ 
+.upload{
+    width: 150px;
+    height: 150px;
+
+    overflow: hidden;
+    background-color: #ffff;
+    margin: 41px 0px 0px 178px;
+
+}
+.upload span h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    font-size: 13px;
+}
+.uploadfile{
+    color:rgb(49, 45, 45);
+    cursor:pointer;
+    }
+    .uploadfile:hover{
+    text-decoration: none;
+    }
